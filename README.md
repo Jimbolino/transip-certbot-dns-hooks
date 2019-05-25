@@ -7,7 +7,8 @@ Requirements
 Installation
 ------------
 * `git clone https://github.com/Jimbolino/transip-certbot-dns-hooks.git`
-* `composer update`
+* `cd transip-certbot-dns-hooks`
+* `composer update --no-plugins --no-scripts`
 * `cp .env.example .env`
 * `vim .env`
 
