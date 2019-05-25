@@ -10,6 +10,7 @@ Installation
 * `cd transip-certbot-dns-hooks`
 * `composer update --no-plugins --no-scripts`
 * `cp .env.example .env`
+* `chmod 600 .env`
 * `vim .env`
 
 Request a wildcard certificate
