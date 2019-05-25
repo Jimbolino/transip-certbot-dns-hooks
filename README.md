@@ -6,13 +6,14 @@ Requirements
 
 Installation
 ------------
-* git clone
-* cp .env.example .env
-* composer update
+* `git clone https://github.com/Jimbolino/transip-certbot-dns-hooks.git`
+* `composer update`
+* `cp .env.example .env`
+* `vim .env`
 
 Request a wildcard certificate
 ------------
-* ./get-wildcard.sh domain.com
+* `./get-wildcard.sh domain.com`
 
 Credits
 ------------
